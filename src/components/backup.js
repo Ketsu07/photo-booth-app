@@ -24,7 +24,7 @@ export default function BackgroundReplaceApp() {
   const [selectedFilter, setSelectedFilter] = useState("none");
   const [selectedFrame, setSelectedFrame] = useState(null);
   const [frameOverlay, setFrameOverlay] = useState(null);
-  const [countdown, setCountdown] = useState(0);
+  const [countdown, setCountdown] = useState(0);x
   const [timerDelay, setTimerDelay] = useState(0);
   const selfieSegmentationRef = useRef(null);
   const audioRef = useRef(null);
